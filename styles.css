@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    color: #333; 
+    
+    background-color: #F8F8F8;
+    line-height: 1.7; 
+  }
+  .content-wrapper {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    background-color: #F8F8F8;
+    
+  }
+
+  .home-list{
+      box-shadow: inset 0 0 0 0 #3f3232;
+      color: #090202;
+      padding: 0 .25rem;
+      margin: 0 -.25rem;
+      transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+      color: #080203;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.5;
+      text-decoration: none;
+    }
+    .home-list:hover {
+      color: #fff;
+      box-shadow: inset 500px 0 0 0 #393535;;
+    }
+
+    .all-link{
+        font-size: 18px;
+    }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px; 
+    color:#232020;
+    
+  }
+  
+  .recipe-description{
+    font-size:23px;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    color: #232020;
+    margin-top: 30px; 
+    margin-bottom: 15px;      
+  }
+  h3{
+    color:#232020;
+  }
+  
+  img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto 30px auto; 
+    border-radius: 8px;  
+  }
+  
+  p {
+    margin-bottom: 15px; 
+    color: #333333;
+  }
+  
+  ul, ol {
+    margin-bottom: 20px; 
+    padding-left: 25px; 
+    color: #333333;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 5px;
+  }
+  
+  .button-container {
+    text-align: right;
+   
+}
+  .home-link  {
+        color: #000000 !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #ffffff;
+        padding: 3px 10px;
+        display: inline-block; 
+        border: 3px solid black;
+        transition: all 0.4s ease 0s;
+        
+        }
+
+.home-link:hover {
+        color: #ffffff !important;
+        background: #000000;
+        border-color: #000000 !important;
+        transition: all 0.4s ease 0s;
+        }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+  }
+  
+  a:hover{
+    color:#776574;
+  } 
+  
